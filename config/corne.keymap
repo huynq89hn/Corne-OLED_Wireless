@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans      &trans        &kp HOME      &kp END        &kp PAGE_UP   &kp PAGE_DOWN    &kp TILDE  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp BSPC
-&trans      &trans        &kp ESCAPE    &kp BACKSPACE  &kp ENTER     &kp DELETE       &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD    &kp SPACE
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4     &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
-                                        &trans         &trans        &kp RET          &kp SPACE  &kp N0        &kp KP_ENTER
+&trans      &trans        &kp HOME      &kp END        &kp PAGE_UP  &kp PAGE_DOWN    &kp TILDE  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp BSPC
+&trans      &trans        &kp ESCAPE    &kp BACKSPACE  &kp ENTER    &kp DELETE       &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD    &kp SPACE
+&bt BT_CLR  &bt BT_SEL 3  &bt BT_SEL 1  &bt BT_SEL 2   &kp LC(C)    &kp LC(V)        &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
+                                        &trans         &trans       &kp RET          &kp SPACE  &kp N0        &kp KP_ENTER
             >;
         };
 
