@@ -20,9 +20,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp LEFT_SHIFT  &kp Q  &kp W  &kp F  &kp P  &kp B           &kp J      &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp RIGHT_SHIFT
+&kp TAB         &kp Q  &kp W  &kp F  &kp P  &kp B           &kp J      &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp RGUI
 &mo 2           &kp A  &kp R  &kp S  &kp T  &kp G           &kp M      &kp N      &kp E      &kp I    &kp O          &kp SQT
-&kp TAB         &kp Z  &kp X  &kp C  &kp D  &kp V           &kp K      &kp H      &kp COMMA  &kp DOT  &kp FSLH       &kp RGUI
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp D  &kp V           &kp K      &kp H      &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
                               &mo 2  &mo 1  &kp LEFT_ALT    &kp RCTRL  &kp SPACE  &mo 2
             >;
         };
@@ -37,7 +37,7 @@
             bindings = <
 &trans      &trans        &kp HOME      &kp END        &kp PAGE_UP  &kp PAGE_DOWN    &kp TILDE  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp BSPC
 &trans      &trans        &kp ESCAPE    &kp BACKSPACE  &kp ENTER    &kp DELETE       &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD    &kp SPACE
-&bt BT_CLR  &bt BT_SEL 3  &bt BT_SEL 1  &bt BT_SEL 2   &kp LC(C)    &kp LC(V)        &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
+&bt BT_CLR  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &kp LC(C)    &kp LC(V)        &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
                                         &trans         &trans       &kp RET          &kp SPACE  &kp N0        &kp KP_ENTER
             >;
         };
