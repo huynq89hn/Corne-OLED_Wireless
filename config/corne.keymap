@@ -21,7 +21,7 @@
 
             bindings = <
 &kp TAB       &kp Q  &kp W  &kp F           &kp P  &kp B    &kp J  &kp L      &kp U            &kp Y    &kp SEMICOLON  &kp RGUI
-&mo 2         &kp A  &kp R  &kp S           &kp T  &kp G    &kp M  &kp N      &kp E            &kp I    &kp O          &kp SQT
+&mo 1         &kp A  &kp R  &kp S           &kp T  &kp G    &kp M  &kp N      &kp E            &kp I    &kp O          &kp SQT
 &kp LEFT_ALT  &kp Z  &kp X  &kp C           &kp D  &kp V    &kp K  &kp H      &kp COMMA        &kp DOT  &kp FSLH       &kp RCTRL
                             &kp LEFT_SHIFT  &mo 1  &mo 2    &mo 2  &kp SPACE  &kp RIGHT_SHIFT
             >;
@@ -36,9 +36,9 @@
 
             bindings = <
 &trans      &trans        &kp HOME      &kp END        &kp PAGE_UP  &kp PAGE_DOWN    &kp TILDE  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
-&trans      &trans        &kp ESCAPE    &kp BACKSPACE  &kp ENTER    &kp DELETE       &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD    &kp SPACE
+&trans      &kp LEFT_ALT  &kp ESCAPE    &kp BACKSPACE  &kp ENTER    &kp DELETE       &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD    &kp SPACE
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &kp LC(C)    &kp LC(V)        &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
-                                        &trans         &trans       &kp RET          &kp SPACE  &kp N0        &kp KP_ENTER
+                                        &trans         &kp ENTER    &trans           &kp SPACE  &kp N0        &kp KP_ENTER
             >;
         };
 
