@@ -53,7 +53,7 @@
 &kp TAB     &kp LCTRL     &trans           &kp UP_ARROW  &kp PAGE_UP  &kp PAGE_DOWN    &kp LEFT_BRACKET       &kp AMPS         &kp ASTRK    &kp LPAR   &kp RPAR  &kp RIGHT_BRACKET
 &kp LCTRL   &kp LEFT_ALT  &kp LEFT         &kp DOWN      &kp RIGHT    &trans           &kp UNDERSCORE         &kp DOLLAR       &kp PERCENT  &kp CARET  &kp BSLH  &kp GRAVE
 &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans        &trans       &kp LC(A)        &kp EQUAL              &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp PIPE  &kp TILDE
-                                           &kp SPACE     &kp ENTER    &kp SPACE        &kp RIGHT_PARENTHESIS  &kp ENTER        &kp RALT
+                                           &kp SPACE     &kp ENTER    &kp ESC          &kp RIGHT_PARENTHESIS  &kp ENTER        &kp RALT
             >;
         };
     };
